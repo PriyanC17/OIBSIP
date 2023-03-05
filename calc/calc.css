@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/wallpaper-background-several-transparent-circles-full_58702-7168.jpg);
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    background: linear-gradient(rgb(57, 68, 179), rgb(184, 62, 245), rgb(215, 88, 166));
+    box-shadow: 12px 0 15px 0 rgba(108, 21, 151, 0.9);
+    border-radius: 12px;
+    width: 234px;
+    margin: 100px auto;
+    padding: 17px;
+  }
+  
+  #screen {
+    width: 94%;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(240, 237, 237, 0.9);
+    box-shadow: 0 0 3px 0 rgba(236, 232, 237, 0.9);
+  }
+   
+  .btn {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 16px;
+    /* border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px; */
+    padding: 10px;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .cc{
+    border-radius: 30px;
+   }
+  .num{
+    background-color: rgba(127, 18, 129, 0.3);
+    
+  }
+  .op{
+    background-color: rgba(62, 73, 176, 0.3);
+    text-align: center;
+    font-size: 26px;
+    box-shadow: 0 0 3px 0 rgb(19 5 22 / 80%);
+
+  }
+  .ex{
+    background-color: rgba(90, 25, 112, 0.5);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.8);
+
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  .num:hover{
+    background-color:rgb(75, 35, 194);
+  }
+  .op:hover{
+    background-color:rgb(123, 20, 111);
+  }
+  .ex:hover{
+    background-color:rgb(176, 40, 162);
+  }
+  
