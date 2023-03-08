@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 80vh;
+    width: 200vh;
+    background-image: url(https://i.pinimg.com/736x/ec/b3/1c/ecb31c3dcc9f0e548a8d0b68a5fa8366.jpg);
+    background-size: 230vh 110vh;
+    background-repeat: no-repeat
+}
+
+.head {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.con {
+    padding-top: 0px;
+    padding-left: 170px;
+}
+
+.addTask {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.addTask>input[type="text"] {
+    width: 90%;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #666;
+    background: none;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.addTask button {
+    margin: 0 10px;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notCompleted,
+.Completed {
+    margin: 5px 0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: bisque;
+}
+
+ol {
+    list-style: none;
+    counter-reset: my-counter;
+}
+
+ol li {
+    width: 100%;
+    padding: 18px;
+    margin: 5px 0;
+    /* background: #e96969bb; */
+    font-family: cursive;
+    font-size: 22px;
+    counter-increment: my-counter;
+}
+
+ol.notCompleted li {
+    border-radius: 25px;
+    background: linear-gradient(rgb(149, 122, 17), rgb(220, 193, 157), rgb(149, 122, 17));
+
+}
+
+ol.Completed li {
+    background: linear-gradient(rgb(112, 64, 9), rgb(225, 174, 115), rgb(112, 64, 29));
+    border-radius: 25px;
+}
+
+ol li::before {
+    content: counter(my-counter);
+    background-color: #807aa0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-right: 0.5rem;
+
+}
+
+li button {
+    float: right;
+    padding: 9px;
+    font-size: 18px;
+    line-height: 10px;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.Completed li button {
+    background: linear-gradient(rgb(112, 64, 9), rgb(225, 174, 115), rgb(112, 64, 29));
+    border-radius: 12px;
+    box-shadow: 0 0 20px 0 rgb(112, 64, 9);
+}
+
+.notCompleted li button {
+    background: linear-gradient(rgb(149, 122, 17), rgb(220, 193, 157), rgb(149, 122, 17));
+    border-radius: 12px;
+    box-shadow: 0 0 20px 0 rgb(149, 122, 17);
+}
