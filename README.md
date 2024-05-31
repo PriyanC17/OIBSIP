@@ -4,17 +4,17 @@ This repository contains the tasks completed during my web development internshi
 
 ## Contents
 
-### Task - 1. Calculator
+### 1. Calculator
 - **Description:** A simple calculator web application built using HTML, CSS, and JavaScript.
 - **Key Learning:** Basic arithmetic operations, DOM manipulation, event handling.
-- **Folder:** `Calculator`
+- **Folder:** `Task-1`
 
-### Task - 2. Tribute Page
+### 2. Tribute Page
 - **Description:** A tribute page dedicated to a notable person, showcasing information about their life and achievements.
 - **Key Learning:** Semantic HTML, CSS styling, responsive design.
-- **Folder:** `TributePage`
+- **Folder:** `Task-2`
 
-### Task - 3. Todo Web App
+### 3. Todo Web App
 - **Description:** A todo list application that allows users to add, remove, and mark tasks as complete.
 - **Key Learning:** CRUD operations, local storage management, dynamic content updating.
-- **Folder:** `TodoWebApp`
+- **Folder:** `Task-3`
